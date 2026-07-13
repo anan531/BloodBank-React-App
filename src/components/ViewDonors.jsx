@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Navigation from './Navigation'
 
 const ViewDonors = () => {
 
@@ -36,6 +37,8 @@ const[data,changeData] = useState([])
 
   return (
     <div>
+
+        <Navigation/>
 <h1 align= "center">View Donors</h1>    
 
 
