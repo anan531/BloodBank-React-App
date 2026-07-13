@@ -64,6 +64,7 @@ const AddDonor = () => {
 
   return (
     <div>
+<Navigation/>
 <h1 align="center">Add Donor</h1>
 
 <div className="container">
